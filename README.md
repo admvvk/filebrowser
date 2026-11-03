@@ -1,3 +1,19 @@
+> [!CAUTION]
+>
+> **This is a standalone mirror (`admvvk/filebrowser`) of the archived upstream
+> [`filebrowser/filebrowser`](https://github.com/filebrowser/filebrowser) project — a full copy, not a
+> GitHub fork link.**
+>
+> **Do not expose this software to the internet or to any untrusted network.** The upstream project is
+> unmaintained (archived 2026-09-01, no further releases/bug fixes/security fixes) and has two known,
+> permanently unfixed vulnerability classes:
+> - **Command execution via runner/hooks** — can be used as equivalent to shell access on the host if enabled.
+> - **Non-revocable JWT sessions** — a leaked token stays valid until expiry; logout/password-change does not invalidate it.
+>
+> This copy is used **only inside an isolated, gateway-segmented network with no direct internet exposure**.
+> If you reuse this mirror elsewhere, you must enforce the same isolation yourself — see the "Security"
+> section below for the full upstream rationale.
+
 > [!WARNING]
 > 
 > **File Browser is archived on 2026-09-01**. The last planned release has already shipped. There will be no further releases, bug fixes, or security fixes.   
